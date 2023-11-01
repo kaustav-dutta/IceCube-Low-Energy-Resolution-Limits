@@ -22,3 +22,11 @@ The direction and timing information of detected photons are used for reconstruc
 
 # Variable Bandwidth KDE
 To fit the expected distributions, we use a variable bandwidth KDE. This technique is superior to other fitting techniques as it efficiently captures the high and low statistics of any given distribution without overfitting or underfitting. First, a window is constructed which slides over all the datapoints and the bandwidth of a gaussian kernel is computed depending on the population enclosed within the window. If the population is large, then the bandwidth is narrow and vice-versa. Finally, all individiual kernels are added up and normalised which gives the overall KDE. Note that there are 2 (or 3) parameters to be optimised: kernel bandwidth, and window size (1D or 2D). This optimisation is performed by analysing the disagreements between the underlying histogram populations and KDE estimates. A minimum overall diviation results in the optimisation.
+
+# Idealistic Assumptions
+There are a few idealistic simplifications in event simulation and detector response:
+a) We use deep homogenous ice here which means optical properties stay constant with depth and within a layer, implying no anisotropies and birefringence. 
+b) The geometry is approximately infinite to make sure all events are completely confined. This ensures no photon escapes the detector. All photons, unless absorbed, are detected. The horizonatal and vertical spacings for a given geometry, is also kept constant.
+c) Only hadronic cascades are simulated which are easy to confine within the detector.
+d) Some parts of the study assume uniform angular sensitivity of a module which gives access to the MC truth direction information of photons. 
+e) Upgrade mDOM PMTs have same collection and quantum efficiencies as Gen-1 DOMs. 
