@@ -25,6 +25,7 @@ To fit the expected distributions, we use a variable bandwidth KDE. This techniq
 
 # Idealistic Assumptions
 There are a few idealistic simplifications in event simulation and detector response:
+
 a) We use deep homogenous ice here which means optical properties stay constant with depth and within a layer, implying no anisotropies and birefringence. 
 
 b) The geometry is approximately infinite to make sure all events are completely confined. This ensures no photon escapes the detector. All photons, unless absorbed, are detected. The horizonatal and vertical spacings for a given geometry, is also kept constant.
