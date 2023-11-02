@@ -37,3 +37,14 @@ d) Some parts of the study assume uniform angular sensitivity of a module which 
 e) Upgrade mDOM PMTs have same collection and quantum efficiencies as Gen-1 DOMs. 
 
 # Key Results
+
+a) Scattering and module resolutions largest contributors towards limiting physics information in IceCube events, followed by the shower spread and module noise. This is an interest result which implies that dramatically increasing the PMT count/module would not give a significant boost to reconstruction.
+
+b) A synergic boost to the reconstruction performance results from using a combined direction and timing information of detected photons. This reflects the gain expected from mDOMs in the Upgrade.
+
+c) In an Upgrade-like geometry, the benchmark GNN algorithm overlaps with resolution limits for large hit counts.
+
+d) A further improvement of ~30% potentially there for GNN reco in the low-hit regime (<30 hits).
+
+e) In a DeepCore-like geometry, an improvement of ~25% potentially there in the overall RMS of zenith reconstruction.
+ 
