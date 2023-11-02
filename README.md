@@ -35,3 +35,5 @@ c) Only hadronic cascades are simulated which are easy to confine within the det
 d) Some parts of the study assume uniform angular sensitivity of a module which gives access to the MC truth direction information of photons. 
 
 e) Upgrade mDOM PMTs have same collection and quantum efficiencies as Gen-1 DOMs. 
+
+# Key Results
